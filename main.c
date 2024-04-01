@@ -59,7 +59,7 @@ static uint16_t m_conn_handle = BLE_CONN_HANDLE_INVALID;
 
 static ble_uuid_t m_adv_uuids[] =                                              
 {
-    {0x182, BLE_UUID_TYPE_BLE}
+    {0x1812, BLE_UUID_TYPE_BLE}
 };
 
 
@@ -386,7 +386,7 @@ static void advertising_start(bool erase_bonds)
         APP_ERROR_CHECK(err_code);
     }
 }
-
+/*
 static void set_random_static_address(void)
 {
 uint32_t err_code;
@@ -416,7 +416,7 @@ err_code = sd_ble_gap_addr_get(&my_device_addr);
 
 
 }
-
+*/
 int main(void)
 {
 
@@ -434,11 +434,11 @@ int main(void)
     conn_params_init();
 
     NRF_LOG_INFO("BLE STARTED!!!");
-    set_random_static_address();
+  //  set_random_static_address();
 
     //application_timers_start();
     advertising_start(erase_bonds);
-    get_random_static_address();
+    //get_random_static_address();
 
     for (;;)
     {
