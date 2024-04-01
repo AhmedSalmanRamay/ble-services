@@ -36,7 +36,10 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="10" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="23" y="61" useTextEdit="1" path="../../../main.c" left="0" top="50" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="74" useTextEdit="1" path="../../../../../../components/ble/common/ble_srv_common.h" left="0" top="102" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="106" y="143" useTextEdit="1" path="../../../../../../components/ble/common/ble_advdata.h" left="0" top="207" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="97" useTextEdit="1" path="../../../../../../components/softdevice/s140/headers/ble_types.h" left="0" selected="1" top="79" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="ble-dktest1.11" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nrf_sdk/nRF5_SDK_17.1.0_ddde560/examples/my_projects/ble-services" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="ble-services" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/nrf_sdk/nRF5_SDK_17.1.0_ddde560/examples/my_projects/ble-services" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
